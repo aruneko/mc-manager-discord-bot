@@ -5,3 +5,9 @@ services:
     build: .
     environment:
       DISCORD_TOKEN: ${DISCORD_TOKEN}
+      GCP_PROJECT_ID: ${GCP_PROJECT_ID}
+      GCP_ZONE: ${GCP_ZONE}
+      GCP_RESOURCE_ID: ${GCP_RESOURCE_ID}
+      GCP_CREDENTIAL_JSON: ${GCP_CREDENTIAL_JSON}
+    volumes:
+      - ./credentials:/usr/src/mc_manager/credentials
