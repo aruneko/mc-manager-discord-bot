@@ -1,7 +1,7 @@
 FROM python:3-alpine
 
 ENV DEBIAN_FRONTEND noninteractive
-
+ENV PYTHONUNBUFFERED 1
 ENV APP_HOME /usr/src/mc_manager
 
 WORKDIR ${APP_HOME}
