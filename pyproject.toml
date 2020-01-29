@@ -8,6 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.7"
 "discord.py" = "^1.2.5"
+google-api-python-client = "^1.7.11"
 
 [tool.poetry.dev-dependencies]
 
